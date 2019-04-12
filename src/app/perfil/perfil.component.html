@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+        <img src="{{photo}}">
+        <h2>{{nameUser}}</h2>
+        <h3>{{emailUser}}</h3>
+    </div>
+    <div class="col-8">
+        <div style="display: block">
+          <canvas id="barChart"></canvas>
+        </div>
+        <div>
+            {{ dataMockaroo | json }}
+        </div>
+    </div>
+  </div>
+</div>
